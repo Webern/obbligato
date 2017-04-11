@@ -1,0 +1,22 @@
+.mxdoc
+
+	
+forzato forced, constrained, far-fetched
+obbligato obliged, bound, indebted, fixed, constrained, set
+
+freezing pieces.forzato
+freezing pieces.obbligato
+freezing pieces.esatto
+
+esatto
+muzatto
+muzecto
+plantain
+scritto
+sforzando
+voce
+
+mskry
+punkt
+
+"semantics, interoperability, generality"
