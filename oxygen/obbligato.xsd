@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
-    targetNamespace="o" vc:minVersion="1.1" xmlns="o" xmlns:o="http://obligato.org/obbligato.xsd"
-    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning">
+    targetNamespace="http://obligato.org/obbligato.xsd" vc:minVersion="1.1"
+    xmlns="http://obligato.org/obbligato.xsd" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:ob="http://obligato.org/obbligato.xsd">
 
-    <xs:element name="obbligato"/>
+    <xs:element name="obbligato">
+        <xs:complexType>
+            <xs:sequence maxOccurs="1">
+                <xs:element name="movements">
+                    <xs:complexType>
+                        <xs:sequence maxOccurs="unbounded">
+                            <xs:element name="movement">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="parts">
+                                            <xs:complexType>
+                                                <xs:sequence maxOccurs="unbounded">
+                                                  <xs:element name="part"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
