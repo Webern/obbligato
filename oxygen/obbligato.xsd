@@ -4,6 +4,68 @@
     xmlns="http://obligato.org/obbligato.xsd" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     xmlns:ob="http://obligato.org/obbligato.xsd">
 
+    <xs:simpleType name="centsValue">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="-100"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType final="" name="stepValue">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="A"/>
+            <xs:enumeration value="B"/>
+            <xs:enumeration value="C"/>
+            <xs:enumeration value="D"/>
+            <xs:enumeration value="E"/>
+            <xs:enumeration value="F"/>
+            <xs:enumeration value="G"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="alterValue">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="-3"/>
+            <xs:maxInclusive value="3"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="accidentalValue">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="None"/>
+            <xs:enumeration value="Flat"/>
+            <xs:enumeration value="Sharp"/>
+            <xs:enumeration value="DoubleFlat"/>
+            <xs:enumeration value="DoubleSharp"/>
+            <xs:enumeration value="TripleFlat"/>
+            <xs:enumeration value="TripletSharp"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="temporalID">
+        <xs:restriction base="xs:ID">
+            <xs:maxLength value="10"/>
+            <xs:minLength value="2"/>
+            <xs:pattern value="\T[0-9]{1,9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="pitchValue">
+        <xs:sequence>
+            <xs:element name="step" type="alterValue"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:group name="temporalGroup">
+        <xs:sequence>
+            <xs:element name="duration"/>
+            <xs:choice>
+                <xs:element name="rest"/>
+                <xs:element name="note">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="accidental" type="accidentalValue"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="chord"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:group>
     <xs:element name="obbligato">
         <xs:complexType>
             <xs:sequence maxOccurs="1">
@@ -16,7 +78,61 @@
                                         <xs:element name="parts">
                                             <xs:complexType>
                                                 <xs:sequence maxOccurs="unbounded">
-                                                  <xs:element name="part"/>
+                                                  <xs:element name="part">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element name="measures">
+                                                  <xs:complexType>
+                                                  <xs:sequence maxOccurs="unbounded">
+                                                  <xs:element name="measure">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element name="staves">
+                                                  <xs:complexType>
+                                                  <xs:sequence maxOccurs="unbounded">
+                                                  <xs:element name="staff">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element name="voices">
+                                                  <xs:complexType>
+                                                  <xs:sequence maxOccurs="4">
+                                                  <xs:element name="voice">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element name="temporals">
+                                                  <xs:complexType>
+                                                  <xs:sequence maxOccurs="unbounded" minOccurs="0">
+                                                  <xs:element name="temporal">
+                                                  <xs:complexType>
+                                                  <xs:group ref="temporalGroup"/>
+                                                  <xs:attribute name="temporal-id" type="temporalID"
+                                                  use="required"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
@@ -29,4 +145,11 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="octaveValue">
+        <xs:restriction base="xs:short">
+            <xs:minInclusive value="-3"/>
+            <xs:maxInclusive value="12"/>
+        </xs:restriction>
+    </xs:simpleType>
+
 </xs:schema>
