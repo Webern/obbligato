@@ -38,31 +38,104 @@
             <xs:enumeration value="TripletSharp"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="temporalID">
+    <xs:simpleType name="temporalID" final="">
         <xs:restriction base="xs:ID">
-            <xs:maxLength value="10"/>
-            <xs:minLength value="2"/>
-            <xs:pattern value="\T[0-9]{1,9}"/>
+            <xs:pattern value=""/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:complexType name="pitchValue">
+    <xs:complexType name="pitchComplex">
         <xs:sequence>
-            <xs:element name="step" type="alterValue"/>
+            <xs:element name="step" type="stepValue"/>
+            <xs:element minOccurs="1" name="alter" type="alterValue"/>
+            <xs:element name="octave" type="octaveValue"/>
+            <xs:element default="0" minOccurs="0" name="cents" type="centsValue"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="octaveValue">
+        <xs:restriction base="xs:short">
+            <xs:minInclusive value="-3"/>
+            <xs:maxInclusive value="12"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="noteComplex">
+        <xs:sequence>
+            <xs:element name="accidental" type="accidentalValue"/>
+            <xs:element name="pitch" type="pitchComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="durationNameValue">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Maxima"/>
+            <xs:enumeration value="Longa"/>
+            <xs:enumeration value="Breve"/>
+            <xs:enumeration value="Whole"/>
+            <xs:enumeration value="Half"/>
+            <xs:enumeration value="Quarter"/>
+            <xs:enumeration value="Eighth"/>
+            <xs:enumeration value="Sixteenth"/>
+            <xs:enumeration value="ThirtySecond"/>
+            <xs:enumeration value="SixtyFourth"/>
+            <xs:enumeration value="OneTwentyEighth"/>
+            <xs:enumeration value="TwoFiftySixth"/>
+            <xs:enumeration value="FiveTwelfth"/>
+            <xs:enumeration value="TenTwentyEighth"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="durationDotsValue">
+        <xs:restriction base="xs:short">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="4"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="durationWithDotsComplex">
+        <xs:sequence>
+            <xs:element name="durationName" type="durationNameValue"/>
+            <xs:element default="0" minOccurs="1" name="durationDots" type="durationDotsValue"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="tupletRatioComplex">
+        <xs:sequence>
+            <xs:element name="actual" type="durationWithDotsComplex"/>
+            <xs:element name="normal" type="durationWithDotsComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tupletModifiersComplex">
+        <xs:sequence>
+            <xs:element maxOccurs="4" minOccurs="0" name="tupletModifier" type="tupletRatioComplex"
+            />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="durationComplex">
+        <xs:sequence>
+            <xs:element name="duration">
+                <xs:complexType>
+                    <xs:complexContent>
+                        <xs:extension base="durationWithDotsComplex">
+                            <xs:sequence>
+                                <xs:element minOccurs="0" name="tupletModifiers"
+                                    type="tupletModifiersComplex"/>
+                            </xs:sequence>
+                        </xs:extension>
+                    </xs:complexContent>
+                </xs:complexType>
+            </xs:element>
         </xs:sequence>
     </xs:complexType>
     <xs:group name="temporalGroup">
         <xs:sequence>
-            <xs:element name="duration"/>
+            <xs:element name="duration" type="durationComplex"/>
             <xs:choice>
                 <xs:element name="rest"/>
-                <xs:element name="note">
+                <xs:element name="note" type="pitchComplex"> </xs:element>
+                <xs:element name="chord">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="accidental" type="accidentalValue"/>
+                            <xs:element maxOccurs="unbounded" minOccurs="2" name="note"
+                                type="noteComplex"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="chord"/>
             </xs:choice>
         </xs:sequence>
     </xs:group>
@@ -145,11 +218,6 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:simpleType name="octaveValue">
-        <xs:restriction base="xs:short">
-            <xs:minInclusive value="-3"/>
-            <xs:maxInclusive value="12"/>
-        </xs:restriction>
-    </xs:simpleType>
 
+    <xs:complexType name="sdfsdf"/>
 </xs:schema>

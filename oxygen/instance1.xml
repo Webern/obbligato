@@ -16,12 +16,20 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>TenTwentyEighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Half</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
@@ -32,15 +40,29 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>E</step>
+                                                        <alter>0</alter>
+                                                        <octave>7</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Longa</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>C</step>
+                                                        <alter>1</alter>
+                                                        <octave>8</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -52,12 +74,23 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Whole</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>G</step>
+                                                        <alter>-2</alter>
+                                                        <octave>10</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
@@ -68,31 +101,26 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Longa</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>A</step>
+                                                        <alter>1</alter>
+                                                        <octave>4</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>ThirtySecond</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>Sharp</accidental>
-                                                            <pitch>
-                                                                <step>G</step>
-                                                                <alter>-1</alter>
-                                                                <octave>-3</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>DoubleSharp</accidental>
-                                                            <pitch>
-                                                                <step>G</step>
-                                                                <alter>2</alter>
-                                                                <octave>2</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -108,18 +136,42 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Half</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>E</step>
-                                                        <alter>-3</alter>
-                                                        <octave>8</octave>
-                                                    </note>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>Flat</accidental>
+                                                            <pitch>
+                                                                <step>E</step>
+                                                                <alter>2</alter>
+                                                                <octave>-3</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>Sharp</accidental>
+                                                            <pitch>
+                                                                <step>D</step>
+                                                                <alter>-3</alter>
+                                                                <octave>-3</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>SixtyFourth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>G</step>
+                                                        <alter>3</alter>
+                                                        <octave>8</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -127,34 +179,23 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>E</step>
-                                                        <alter>2</alter>
-                                                        <octave>5</octave>
-                                                    </note>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>TwoFiftySixth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>TripletSharp</accidental>
-                                                            <pitch>
-                                                                <step>A</step>
-                                                                <alter>0</alter>
-                                                                <octave>4</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>DoubleSharp</accidental>
-                                                            <pitch>
-                                                                <step>G</step>
-                                                                <alter>3</alter>
-                                                                <octave>-1</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -166,18 +207,39 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Longa</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>E</step>
-                                                        <alter>3</alter>
-                                                        <octave>9</octave>
-                                                    </note>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>DoubleFlat</accidental>
+                                                            <pitch>
+                                                                <step>E</step>
+                                                                <alter>1</alter>
+                                                                <octave>-1</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>None</accidental>
+                                                            <pitch>
+                                                                <step>A</step>
+                                                                <alter>3</alter>
+                                                                <octave>5</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -185,31 +247,42 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>OneTwentyEighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>TripleFlat</accidental>
-                                                            <pitch>
-                                                                <step>B</step>
-                                                                <alter>0</alter>
-                                                                <octave>1</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>DoubleFlat</accidental>
-                                                            <pitch>
-                                                                <step>D</step>
-                                                                <alter>2</alter>
-                                                                <octave>1</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
+                                                    <note>
+                                                        <step>F</step>
+                                                        <alter>-1</alter>
+                                                        <octave>6</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>TwoFiftySixth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>DoubleSharp</accidental>
+                                                            <pitch>
+                                                                <step>C</step>
+                                                                <alter>-2</alter>
+                                                                <octave>4</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>None</accidental>
+                                                            <pitch>
+                                                                <step>A</step>
+                                                                <alter>-3</alter>
+                                                                <octave>3</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -229,15 +302,36 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>F</step>
-                                                        <alter>-2</alter>
-                                                        <octave>5</octave>
-                                                    </note>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>DoubleFlat</accidental>
+                                                            <pitch>
+                                                                <step>G</step>
+                                                                <alter>-3</alter>
+                                                                <octave>10</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>TripleFlat</accidental>
+                                                            <pitch>
+                                                                <step>B</step>
+                                                                <alter>1</alter>
+                                                                <octave>2</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>TwoFiftySixth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
@@ -248,31 +342,42 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Whole</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
+                                                    </duration>
+                                                    <note>
+                                                        <step>D</step>
+                                                        <alter>3</alter>
+                                                        <octave>5</octave>
+                                                    </note>
+                                                </temporal>
+                                                <temporal temporal-id="">
+                                                    <duration>
+                                                        <duration>
+                                                            <durationName>Quarter</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <chord>
                                                         <note>
-                                                            <accidental>None</accidental>
+                                                            <accidental>TripletSharp</accidental>
                                                             <pitch>
-                                                                <step>E</step>
-                                                                <alter>-1</alter>
+                                                                <step>B</step>
+                                                                <alter>0</alter>
                                                                 <octave>7</octave>
                                                             </pitch>
                                                         </note>
                                                         <note>
-                                                            <accidental>Sharp</accidental>
+                                                            <accidental>DoubleFlat</accidental>
                                                             <pitch>
-                                                                <step>E</step>
-                                                                <alter>1</alter>
-                                                                <octave>-2</octave>
+                                                                <step>B</step>
+                                                                <alter>2</alter>
+                                                                <octave>11</octave>
                                                             </pitch>
                                                         </note>
                                                     </chord>
-                                                </temporal>
-                                                <temporal temporal-id="">
-                                                    <duration>
-                                                    </duration>
-                                                    <rest>
-                                                    </rest>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -284,28 +389,39 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>G</step>
+                                                        <alter>0</alter>
+                                                        <octave>6</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Eighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <chord>
                                                         <note>
-                                                            <accidental>None</accidental>
+                                                            <accidental>Flat</accidental>
                                                             <pitch>
-                                                                <step>A</step>
+                                                                <step>E</step>
                                                                 <alter>-1</alter>
-                                                                <octave>7</octave>
+                                                                <octave>10</octave>
                                                             </pitch>
                                                         </note>
                                                         <note>
-                                                            <accidental>Flat</accidental>
+                                                            <accidental>DoubleSharp</accidental>
                                                             <pitch>
-                                                                <step>B</step>
+                                                                <step>D</step>
                                                                 <alter>2</alter>
-                                                                <octave>0</octave>
+                                                                <octave>5</octave>
                                                             </pitch>
                                                         </note>
                                                     </chord>
@@ -316,18 +432,26 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>D</step>
+                                                        <alter>-3</alter>
+                                                        <octave>-1</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Sixteenth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>E</step>
-                                                        <alter>0</alter>
-                                                        <octave>9</octave>
-                                                    </note>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -343,21 +467,55 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>OneTwentyEighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>G</step>
-                                                        <alter>2</alter>
-                                                        <octave>0</octave>
-                                                    </note>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>Flat</accidental>
+                                                            <pitch>
+                                                                <step>G</step>
+                                                                <alter>3</alter>
+                                                                <octave>2</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>TripletSharp</accidental>
+                                                            <pitch>
+                                                                <step>G</step>
+                                                                <alter>-2</alter>
+                                                                <octave>-2</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Eighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>E</step>
-                                                        <alter>-2</alter>
-                                                        <octave>5</octave>
-                                                    </note>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>DoubleFlat</accidental>
+                                                            <pitch>
+                                                                <step>A</step>
+                                                                <alter>-1</alter>
+                                                                <octave>8</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>DoubleSharp</accidental>
+                                                            <pitch>
+                                                                <step>G</step>
+                                                                <alter>-3</alter>
+                                                                <octave>-2</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -365,31 +523,39 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Sixteenth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <note>
-                                                        <step>E</step>
-                                                        <alter>-1</alter>
-                                                        <octave>0</octave>
+                                                        <step>D</step>
+                                                        <alter>1</alter>
+                                                        <octave>-1</octave>
                                                     </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Maxima</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <chord>
                                                         <note>
-                                                            <accidental>DoubleSharp</accidental>
+                                                            <accidental>Flat</accidental>
                                                             <pitch>
-                                                                <step>G</step>
-                                                                <alter>2</alter>
-                                                                <octave>-1</octave>
+                                                                <step>A</step>
+                                                                <alter>-2</alter>
+                                                                <octave>5</octave>
                                                             </pitch>
                                                         </note>
                                                         <note>
-                                                            <accidental>DoubleSharp</accidental>
+                                                            <accidental>DoubleFlat</accidental>
                                                             <pitch>
-                                                                <step>D</step>
+                                                                <step>C</step>
                                                                 <alter>0</alter>
-                                                                <octave>3</octave>
+                                                                <octave>-1</octave>
                                                             </pitch>
                                                         </note>
                                                     </chord>
@@ -404,31 +570,26 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Whole</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Half</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>DoubleSharp</accidental>
-                                                            <pitch>
-                                                                <step>B</step>
-                                                                <alter>0</alter>
-                                                                <octave>5</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>None</accidental>
-                                                            <pitch>
-                                                                <step>C</step>
-                                                                <alter>0</alter>
-                                                                <octave>7</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
+                                                    <note>
+                                                        <step>D</step>
+                                                        <alter>-2</alter>
+                                                        <octave>9</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -436,31 +597,26 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
-                                                    </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>DoubleFlat</accidental>
-                                                            <pitch>
-                                                                <step>E</step>
-                                                                <alter>-2</alter>
-                                                                <octave>1</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>TripleFlat</accidental>
-                                                            <pitch>
-                                                                <step>B</step>
-                                                                <alter>2</alter>
-                                                                <octave>5</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
-                                                </temporal>
-                                                <temporal temporal-id="">
-                                                    <duration>
+                                                        <duration>
+                                                            <durationName>ThirtySecond</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
+                                                </temporal>
+                                                <temporal temporal-id="">
+                                                    <duration>
+                                                        <duration>
+                                                            <durationName>Maxima</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
+                                                    </duration>
+                                                    <note>
+                                                        <step>G</step>
+                                                        <alter>1</alter>
+                                                        <octave>2</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -484,28 +640,23 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>ThirtySecond</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>TripleFlat</accidental>
-                                                            <pitch>
-                                                                <step>D</step>
-                                                                <alter>2</alter>
-                                                                <octave>6</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>Flat</accidental>
-                                                            <pitch>
-                                                                <step>G</step>
-                                                                <alter>3</alter>
-                                                                <octave>2</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
+                                                    <note>
+                                                        <step>G</step>
+                                                        <alter>0</alter>
+                                                        <octave>10</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Sixteenth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
@@ -516,18 +667,26 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
-                                                    </duration>
-                                                    <note>
-                                                        <step>D</step>
-                                                        <alter>2</alter>
-                                                        <octave>0</octave>
-                                                    </note>
-                                                </temporal>
-                                                <temporal temporal-id="">
-                                                    <duration>
+                                                        <duration>
+                                                            <durationName>SixtyFourth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
+                                                </temporal>
+                                                <temporal temporal-id="">
+                                                    <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
+                                                    </duration>
+                                                    <note>
+                                                        <step>G</step>
+                                                        <alter>1</alter>
+                                                        <octave>11</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -539,34 +698,23 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Whole</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>TripleFlat</accidental>
-                                                            <pitch>
-                                                                <step>F</step>
-                                                                <alter>3</alter>
-                                                                <octave>2</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>DoubleFlat</accidental>
-                                                            <pitch>
-                                                                <step>E</step>
-                                                                <alter>-2</alter>
-                                                                <octave>-3</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>ThirtySecond</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>C</step>
-                                                        <alter>1</alter>
-                                                        <octave>4</octave>
-                                                    </note>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -574,18 +722,55 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>SixtyFourth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>DoubleFlat</accidental>
+                                                            <pitch>
+                                                                <step>D</step>
+                                                                <alter>3</alter>
+                                                                <octave>0</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>DoubleFlat</accidental>
+                                                            <pitch>
+                                                                <step>F</step>
+                                                                <alter>0</alter>
+                                                                <octave>0</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Whole</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>G</step>
-                                                        <alter>0</alter>
-                                                        <octave>10</octave>
-                                                    </note>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>Sharp</accidental>
+                                                            <pitch>
+                                                                <step>E</step>
+                                                                <alter>3</alter>
+                                                                <octave>5</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>None</accidental>
+                                                            <pitch>
+                                                                <step>F</step>
+                                                                <alter>-1</alter>
+                                                                <octave>1</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -601,21 +786,42 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>TwoFiftySixth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <note>
                                                         <step>D</step>
-                                                        <alter>2</alter>
-                                                        <octave>0</octave>
+                                                        <alter>-2</alter>
+                                                        <octave>11</octave>
                                                     </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>E</step>
-                                                        <alter>1</alter>
-                                                        <octave>-3</octave>
-                                                    </note>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>None</accidental>
+                                                            <pitch>
+                                                                <step>D</step>
+                                                                <alter>1</alter>
+                                                                <octave>7</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>DoubleSharp</accidental>
+                                                            <pitch>
+                                                                <step>C</step>
+                                                                <alter>-1</alter>
+                                                                <octave>3</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -623,18 +829,39 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Half</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>None</accidental>
+                                                            <pitch>
+                                                                <step>C</step>
+                                                                <alter>-2</alter>
+                                                                <octave>-1</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>DoubleSharp</accidental>
+                                                            <pitch>
+                                                                <step>B</step>
+                                                                <alter>-1</alter>
+                                                                <octave>3</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Eighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>B</step>
-                                                        <alter>-2</alter>
-                                                        <octave>6</octave>
-                                                    </note>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -646,15 +873,20 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>FiveTwelfth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>E</step>
-                                                        <alter>-1</alter>
-                                                        <octave>10</octave>
-                                                    </note>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>ThirtySecond</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
@@ -665,31 +897,29 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>ThirtySecond</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>A</step>
+                                                        <alter>2</alter>
+                                                        <octave>1</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Quarter</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>DoubleSharp</accidental>
-                                                            <pitch>
-                                                                <step>B</step>
-                                                                <alter>0</alter>
-                                                                <octave>1</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>DoubleFlat</accidental>
-                                                            <pitch>
-                                                                <step>C</step>
-                                                                <alter>-1</alter>
-                                                                <octave>-2</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
+                                                    <note>
+                                                        <step>B</step>
+                                                        <alter>-1</alter>
+                                                        <octave>9</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -709,34 +939,42 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
-                                                    </duration>
-                                                    <note>
-                                                        <step>B</step>
-                                                        <alter>0</alter>
-                                                        <octave>7</octave>
-                                                    </note>
-                                                </temporal>
-                                                <temporal temporal-id="">
-                                                    <duration>
+                                                        <duration>
+                                                            <durationName>Breve</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <chord>
                                                         <note>
-                                                            <accidental>TripletSharp</accidental>
+                                                            <accidental>DoubleSharp</accidental>
                                                             <pitch>
-                                                                <step>A</step>
-                                                                <alter>-1</alter>
-                                                                <octave>10</octave>
+                                                                <step>C</step>
+                                                                <alter>0</alter>
+                                                                <octave>6</octave>
                                                             </pitch>
                                                         </note>
                                                         <note>
-                                                            <accidental>TripletSharp</accidental>
+                                                            <accidental>Sharp</accidental>
                                                             <pitch>
-                                                                <step>G</step>
-                                                                <alter>1</alter>
-                                                                <octave>2</octave>
+                                                                <step>C</step>
+                                                                <alter>-1</alter>
+                                                                <octave>-2</octave>
                                                             </pitch>
                                                         </note>
                                                     </chord>
+                                                </temporal>
+                                                <temporal temporal-id="">
+                                                    <duration>
+                                                        <duration>
+                                                            <durationName>ThirtySecond</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
+                                                    </duration>
+                                                    <note>
+                                                        <step>C</step>
+                                                        <alter>0</alter>
+                                                        <octave>-2</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -744,31 +982,29 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>OneTwentyEighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>Flat</accidental>
-                                                            <pitch>
-                                                                <step>G</step>
-                                                                <alter>-2</alter>
-                                                                <octave>3</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>TripleFlat</accidental>
-                                                            <pitch>
-                                                                <step>A</step>
-                                                                <alter>2</alter>
-                                                                <octave>1</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
+                                                    <note>
+                                                        <step>A</step>
+                                                        <alter>-2</alter>
+                                                        <octave>-2</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>TwoFiftySixth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>C</step>
+                                                        <alter>3</alter>
+                                                        <octave>2</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -780,34 +1016,42 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
-                                                    </duration>
-                                                    <chord>
-                                                        <note>
-                                                            <accidental>DoubleFlat</accidental>
-                                                            <pitch>
-                                                                <step>C</step>
-                                                                <alter>0</alter>
-                                                                <octave>2</octave>
-                                                            </pitch>
-                                                        </note>
-                                                        <note>
-                                                            <accidental>Sharp</accidental>
-                                                            <pitch>
-                                                                <step>C</step>
-                                                                <alter>-2</alter>
-                                                                <octave>-2</octave>
-                                                            </pitch>
-                                                        </note>
-                                                    </chord>
-                                                </temporal>
-                                                <temporal temporal-id="">
-                                                    <duration>
+                                                        <duration>
+                                                            <durationName>TenTwentyEighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <note>
                                                         <step>C</step>
-                                                        <alter>-2</alter>
-                                                        <octave>-2</octave>
+                                                        <alter>0</alter>
+                                                        <octave>8</octave>
                                                     </note>
+                                                </temporal>
+                                                <temporal temporal-id="">
+                                                    <duration>
+                                                        <duration>
+                                                            <durationName>TwoFiftySixth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
+                                                    </duration>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>TripletSharp</accidental>
+                                                            <pitch>
+                                                                <step>G</step>
+                                                                <alter>0</alter>
+                                                                <octave>9</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>TripleFlat</accidental>
+                                                            <pitch>
+                                                                <step>G</step>
+                                                                <alter>2</alter>
+                                                                <octave>11</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -815,31 +1059,42 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
-                                                    </duration>
-                                                    <rest>
-                                                    </rest>
-                                                </temporal>
-                                                <temporal temporal-id="">
-                                                    <duration>
+                                                        <duration>
+                                                            <durationName>Whole</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <chord>
-                                                        <note>
-                                                            <accidental>TripletSharp</accidental>
-                                                            <pitch>
-                                                                <step>G</step>
-                                                                <alter>1</alter>
-                                                                <octave>1</octave>
-                                                            </pitch>
-                                                        </note>
                                                         <note>
                                                             <accidental>Flat</accidental>
                                                             <pitch>
                                                                 <step>F</step>
-                                                                <alter>-3</alter>
-                                                                <octave>10</octave>
+                                                                <alter>-1</alter>
+                                                                <octave>6</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>Sharp</accidental>
+                                                            <pitch>
+                                                                <step>B</step>
+                                                                <alter>0</alter>
+                                                                <octave>0</octave>
                                                             </pitch>
                                                         </note>
                                                     </chord>
+                                                </temporal>
+                                                <temporal temporal-id="">
+                                                    <duration>
+                                                        <duration>
+                                                            <durationName>Eighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
+                                                    </duration>
+                                                    <note>
+                                                        <step>F</step>
+                                                        <alter>3</alter>
+                                                        <octave>2</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -855,18 +1110,55 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>TenTwentyEighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>DoubleSharp</accidental>
+                                                            <pitch>
+                                                                <step>C</step>
+                                                                <alter>3</alter>
+                                                                <octave>10</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>TripletSharp</accidental>
+                                                            <pitch>
+                                                                <step>D</step>
+                                                                <alter>0</alter>
+                                                                <octave>1</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>TwoFiftySixth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>F</step>
-                                                        <alter>-2</alter>
-                                                        <octave>2</octave>
-                                                    </note>
+                                                    <chord>
+                                                        <note>
+                                                            <accidental>TripleFlat</accidental>
+                                                            <pitch>
+                                                                <step>G</step>
+                                                                <alter>2</alter>
+                                                                <octave>10</octave>
+                                                            </pitch>
+                                                        </note>
+                                                        <note>
+                                                            <accidental>Flat</accidental>
+                                                            <pitch>
+                                                                <step>E</step>
+                                                                <alter>0</alter>
+                                                                <octave>9</octave>
+                                                            </pitch>
+                                                        </note>
+                                                    </chord>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -874,18 +1166,26 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Eighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>D</step>
+                                                        <alter>2</alter>
+                                                        <octave>11</octave>
+                                                    </note>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>TwoFiftySixth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <note>
-                                                        <step>A</step>
-                                                        <alter>2</alter>
-                                                        <octave>10</octave>
-                                                    </note>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -897,31 +1197,39 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
-                                                    </duration>
-                                                    <rest>
-                                                    </rest>
-                                                </temporal>
-                                                <temporal temporal-id="">
-                                                    <duration>
+                                                        <duration>
+                                                            <durationName>Longa</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <chord>
                                                         <note>
-                                                            <accidental>DoubleFlat</accidental>
+                                                            <accidental>None</accidental>
                                                             <pitch>
-                                                                <step>D</step>
-                                                                <alter>-1</alter>
-                                                                <octave>2</octave>
+                                                                <step>G</step>
+                                                                <alter>0</alter>
+                                                                <octave>1</octave>
                                                             </pitch>
                                                         </note>
                                                         <note>
                                                             <accidental>Flat</accidental>
                                                             <pitch>
-                                                                <step>E</step>
-                                                                <alter>-1</alter>
-                                                                <octave>8</octave>
+                                                                <step>G</step>
+                                                                <alter>-2</alter>
+                                                                <octave>11</octave>
                                                             </pitch>
                                                         </note>
                                                     </chord>
+                                                </temporal>
+                                                <temporal temporal-id="">
+                                                    <duration>
+                                                        <duration>
+                                                            <durationName>Maxima</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
+                                                    </duration>
+                                                    <rest>
+                                                    </rest>
                                                 </temporal>
                                             </temporals>
                                         </voice>
@@ -929,15 +1237,26 @@
                                             <temporals>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>SixtyFourth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
                                                     <rest>
                                                     </rest>
                                                 </temporal>
                                                 <temporal temporal-id="">
                                                     <duration>
+                                                        <duration>
+                                                            <durationName>Eighth</durationName>
+                                                            <durationDots>0</durationDots>
+                                                        </duration>
                                                     </duration>
-                                                    <rest>
-                                                    </rest>
+                                                    <note>
+                                                        <step>F</step>
+                                                        <alter>-3</alter>
+                                                        <octave>11</octave>
+                                                    </note>
                                                 </temporal>
                                             </temporals>
                                         </voice>
