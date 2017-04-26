@@ -87,16 +87,27 @@
             <xs:maxInclusive value="4"/>
         </xs:restriction>
     </xs:simpleType>
+    <xs:simpleType name="positiveShort">
+        <xs:restriction base="xs:short">
+            <xs:minExclusive value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
     <xs:complexType name="durationWithDotsComplex">
         <xs:sequence>
             <xs:element name="durationName" type="durationNameValue"/>
             <xs:element default="0" minOccurs="1" name="durationDots" type="durationDotsValue"/>
         </xs:sequence>
     </xs:complexType>
+    <xs:complexType name="durationCountComplex">
+        <xs:sequence>
+            <xs:element name="durationCount" type="positiveShort"/>
+            <xs:element name="durationCountType" type="durationDotsValue"/>
+        </xs:sequence>
+    </xs:complexType>
     <xs:complexType name="tupletRatioComplex">
         <xs:sequence>
-            <xs:element name="actual" type="durationWithDotsComplex"/>
-            <xs:element name="normal" type="durationWithDotsComplex"/>
+            <xs:element name="actual" type="durationCountComplex"/>
+            <xs:element name="normal" type="durationCountComplex"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -139,6 +150,54 @@
             </xs:choice>
         </xs:sequence>
     </xs:group>
+    <xs:complexType name="voiceComplex">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="temporals" type="temporalsComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="voicesComplex">
+        <xs:sequence>
+            <xs:element maxOccurs="4" minOccurs="0" name="voice" type="temporalsComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="staffComplex">
+        <xs:sequence>
+            <xs:element name="voices" type="voicesComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="stavesComplex">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="staff" type="staffComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="measureComplex">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="staves" type="stavesComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="measuresComplex">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="measure" type="measureComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="partComplex">
+        <xs:sequence>
+            <xs:element minOccurs="1" name="measures" type="measuresComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="partsComplex">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="parts" type="partComplex"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="temporalComplex">
+        <xs:group ref="temporalGroup"/>
+    </xs:complexType>
+    <xs:complexType name="temporalsComplex">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="temporal" type="temporalComplex"/>
+        </xs:sequence>
+    </xs:complexType>
     <xs:element name="obbligato">
         <xs:complexType>
             <xs:sequence maxOccurs="1">
@@ -148,67 +207,8 @@
                             <xs:element name="movement">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="parts">
-                                            <xs:complexType>
-                                                <xs:sequence maxOccurs="unbounded">
-                                                  <xs:element name="part">
-                                                  <xs:complexType>
-                                                  <xs:sequence>
-                                                  <xs:element name="measures">
-                                                  <xs:complexType>
-                                                  <xs:sequence maxOccurs="unbounded">
-                                                  <xs:element name="measure">
-                                                  <xs:complexType>
-                                                  <xs:sequence>
-                                                  <xs:element name="staves">
-                                                  <xs:complexType>
-                                                  <xs:sequence maxOccurs="unbounded">
-                                                  <xs:element name="staff">
-                                                  <xs:complexType>
-                                                  <xs:sequence>
-                                                  <xs:element name="voices">
-                                                  <xs:complexType>
-                                                  <xs:sequence maxOccurs="4">
-                                                  <xs:element name="voice">
-                                                  <xs:complexType>
-                                                  <xs:sequence>
-                                                  <xs:element name="temporals">
-                                                  <xs:complexType>
-                                                  <xs:sequence maxOccurs="unbounded" minOccurs="0">
-                                                  <xs:element name="temporal">
-                                                  <xs:complexType>
-                                                  <xs:group ref="temporalGroup"/>
-                                                  <xs:attribute name="temporal-id" type="temporalID"
-                                                  use="required"/>
-                                                  </xs:complexType>
-                                                  </xs:element>
-                                                  </xs:sequence>
-                                                  </xs:complexType>
-                                                  </xs:element>
-                                                  </xs:sequence>
-                                                  </xs:complexType>
-                                                  </xs:element>
-                                                  </xs:sequence>
-                                                  </xs:complexType>
-                                                  </xs:element>
-                                                  </xs:sequence>
-                                                  </xs:complexType>
-                                                  </xs:element>
-                                                  </xs:sequence>
-                                                  </xs:complexType>
-                                                  </xs:element>
-                                                  </xs:sequence>
-                                                  </xs:complexType>
-                                                  </xs:element>
-                                                  </xs:sequence>
-                                                  </xs:complexType>
-                                                  </xs:element>
-                                                  </xs:sequence>
-                                                  </xs:complexType>
-                                                  </xs:element>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
+                                        <xs:element maxOccurs="unbounded" name="parts"
+                                            type="partsComplex"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
